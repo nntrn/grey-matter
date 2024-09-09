@@ -1,17 +1,13 @@
 # Grey Matter
 
+Grey Matter posts scraped from [greysanatomy.fandom.com/](https://greysanatomy.fandom.com/wiki/Category:Grey_Matter)
+
+
 ```sh
 git clone https://github.com/nntrn/grey-matter.git
-
 cd grey-matter
 ./greymatter.sh
 ```
-
-
-https://greysanatomy.fandom.com/api.php?action=query&list=categorymembers&cmtitle=Category:Grey_Matter&cmlimit=500&format=json
-
-https://greysanatomy.fandom.com/api.php?action=query&generator=categorymembers&formatversion=2&format=json&gcmlimit=500&gcmtitle=Category:Grey_Matter&prop=info|revisions
-
 
 ## Season 1
 
@@ -164,3 +160,13 @@ https://greysanatomy.fandom.com/api.php?action=query&generator=categorymembers&f
 * [White Wedding](./grey-matter/7x20-white-wedding.txt)
 * [I Will Survive](./grey-matter/7x21-i-will-survive.txt)
 * [Unaccompanied Minor](./grey-matter/7x22-unaccompanied-minor.txt)
+
+
+## API
+
+* [List page ids](https://greysanatomy.fandom.com/api.php?action=query&list=categorymembers&cmtitle=Category:Grey_Matter&cmlimit=500&format=json):   
+`api.php?action=query&list=categorymembers&cmtitle=Category:Grey_Matter`
+
+* [Parse wikitext](https://greysanatomy.fandom.com/api.php?action=parse&formatversion=2&format=json&prop=wikitext&pageid=67878)  
+`api.php?action=parse&prop=wikitext&pageid=67878`
+
