@@ -1,3 +1,4 @@
 * text=auto
 
 *.txt linguist-language=Markdown
+*.txt linguist-detectable=true
